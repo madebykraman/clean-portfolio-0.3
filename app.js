@@ -1,0 +1,1 @@
+document.querySelectorAll('.nav a').forEach(a=>{if(a.pathname===location.pathname)a.classList.add('active')});document.querySelectorAll('form').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();const b=f.querySelector('button');if(b){b.textContent='Message ready to send';b.disabled=true}}));
